@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "sweet-alert": "^2.0.5",
+    "sweetalert": "^2.1.2",
+    "toastr": "^2.1.4"
+  }
+}

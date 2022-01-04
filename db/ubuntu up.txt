@@ -1,0 +1,10 @@
+
+ubuntu import db using terminal
+
+mysql -u root -p
+password:SystemGroup2018
+
+create database dbname;
+USE dbname;
+
+source /home/administrator/Downloads/file.sql;
