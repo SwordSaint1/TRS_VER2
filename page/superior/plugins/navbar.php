@@ -1,5 +1,3 @@
-
-
 <?php 
 //SESSION
 include '../../process/session.php';
@@ -11,8 +9,6 @@ if($role == 'superior'){
         session_destroy();
         header('location: ../../index.php');
     }
-
-
 ?>  
 <!DOCTYPE html>
 <html lang="en">

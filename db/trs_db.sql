@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 13, 2021 at 01:54 AM
+-- Generation Time: Jan 06, 2022 at 10:25 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.25
 
@@ -42,10 +42,87 @@ CREATE TABLE `trs_accounts` (
 --
 
 INSERT INTO `trs_accounts` (`id`, `full_name`, `username`, `password`, `role`, `esection`, `date_created`) VALUES
-(1, 'jj', 'jj_qualif', 'admin', 'qualificator', 'Qualificator', '2021-12-13'),
-(2, 'jj', 'jj_sec1', 'admin', 'requestor', 'Section 1', '2021-12-13'),
-(3, 'jj', 'jj_training', 'admin', 'training', 'Training', '2021-12-13'),
-(4, 'jj', 'jj_superior', 'admin', 'superior', 'Section 1', '2021-12-13');
+(1, 'jj', 'jj_qualif', 'admin', 'qualificator', 'Qualificator', '2022-01-05'),
+(2, 'jj', 'jj_sec1', 'admin', 'requestor', 'Section 1', '2022-01-06'),
+(3, 'jj', 'jj_training', 'admin', 'training', 'Production Technical Training', '2022-01-06'),
+(4, 'jj', 'jj_superior', 'admin', 'superior', 'Section 1', '2022-01-06'),
+(5, 'Gonzales, Joel C.', 'G.JC', 'G.JEQ', 'requestor', 'EQ(Final)', '2022-01-06'),
+(6, 'De La Roca, Kim Sahmil T.', 'DLR.KST', 'D.KEQ', 'requestor', 'EQ(Initial)', '2022-01-06'),
+(7, 'Bansal, Donnabel', 'B.D', 'B.DS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(8, 'Punzalan, Jeanette M.', 'P.JM', 'P.JQA', 'requestor', 'QA-Initial', '2022-01-06'),
+(9, 'Barredo, Shirley F.', 'B.SF', 'B.SS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(10, 'Pagdonsolan, Ivy Jeane', 'P.IJ', 'P.IQA', 'requestor', 'QA-Initial', '2022-01-06'),
+(11, 'Carmona, Rose Ann	C.RQA', 'C.RA', 'C.RQA', 'requestor', 'QA-Initial', '2022-01-06'),
+(12, 'De Guzman, Aiza', 'DG.A', 'D.AS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(13, 'Esquelera, Gladys', 'E.G', 'E.GS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(14, 'Baes, Jackielyn S.', 'B.JS', 'B.JQA', 'requestor', 'QA-Initial', '2022-01-06'),
+(15, 'Sarol, Mikaela C.', 'S.MC', 'S.MQA', 'requestor', 'QA-FINAL', '2022-01-06'),
+(16, 'Garcia, Lizee F.', 'G.LF', 'G.LS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(17, 'Gomez, Mary Grace B.', 'G.MGB', 'G.MQA', 'requestor', 'QA-FINAL', '2022-01-06'),
+(18, 'Mojares, Lhea', 'M.L', 'M.LS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(19, 'Ciruelos, Sally', 'C.S', 'C.SQA', 'requestor', 'QA-FINAL', '2022-01-06'),
+(20, 'Olarte, Myla S.', 'O.MS', 'O.MS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(21, 'De Mesa, Jessica A.', 'DM.JA', 'D.JQA', 'requestor', 'QA', '2022-01-06'),
+(22, 'Cachuela, Armivel B.', 'C.AB', 'C.AQA', 'requestor', 'QA', '2022-01-06'),
+(23, 'Reyes, Aubrey rose L.', 'R. ARL', 'R.AS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(24, 'Barrameda, Mary Grace A.', 'B.MGA', 'B.MQA', 'requestor', 'QA', '2022-01-06'),
+(25, 'Albay, Lonah Jean G.', 'A.LJG', 'A.LQA', 'requestor', 'QA', '2022-01-06'),
+(26, 'Sanchez, Princess', 'S. P', 'S.PS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(27, 'Macaraig, Hazel Mae', 'M.HM', 'M.HPE', 'requestor', 'PE(Initial)', '2022-01-06'),
+(28, 'Sarmiento, Twinkle B.', 'S.TB', 'S.TS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(29, 'Valinado, Gladyliene Mae', 'V.GM', 'V.GPE', 'requestor', 'PE(Final)', '2022-01-06'),
+(30, 'Soriano, Joanna Marie', 'S.JM', 'S.JS1', 'requestor', 'PD1 Section 1', '2022-01-06'),
+(31, 'Cepillo, Kristine Mariel I.', 'C.KMI', 'C.KPE', 'requestor', 'PE(Final)', '2022-01-06'),
+(32, 'Adan, Shiela Mae A.', 'A.SMA', 'A.SS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(33, 'Verana, Carla Jane L.', 'V.CJL', 'V.CS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(34, 'Ali, Lorraine Jane M.', 'A.LJM', 'A.LS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(35, 'Andal, May Ann C.', 'A.MAC', 'A.MS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(36, 'Macatangay, Irish V.', 'M.IV', 'M.IS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(37, 'Lumbaz, Lara Jean', 'L.LJ', 'L.LS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(38, 'Awat, Babylyn', 'A.B', 'A.BS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(39, 'Lopez, Roselyn N.', 'L.RN', 'L.RS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(40, 'Azarga, Elenith', 'A.E', 'A.ES2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(41, 'Ilagan, Margie D.', 'I.MD', 'I.MS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(42, 'Icaro, Gladies G.', 'I.GG', 'I.GS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(43, 'Gardiola, Carla Joy R.', 'G.CJR', 'G.CS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(44, 'Enriquez, Nelsie L.', 'E.NL', 'E.NS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(45, 'Carandang, Sherly V.', 'C.SV', 'C.SS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(46, 'Baguio, Roseanne B.', 'B.RB', 'B.RS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(47, 'Amada, Grace', 'A.G', 'A.GS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(48, 'Balhag, Marlene', 'B. M', 'B.MS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(49, 'Afable, Ana', 'A.A', 'A.AS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(50, 'Bolado, Alice B.', 'B. AB', 'B.AS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(51, 'Acibes, Roshiel', 'A.R', 'A.RS6', 'requestor', 'PD2 Section 6', '2022-01-06'),
+(52, 'De Claro, Susan', 'DC. S', 'D.SS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(53, 'Linga, Czarina', 'L.C', 'L.CS5', 'requestor', 'PD2 Section 5', '2022-01-06'),
+(54, 'Dela Rosa, Jeffel V.', 'DR.JV', 'D.JS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(55, 'Las, Ma. Niña', 'L.MN', 'L.MS5', 'requestor', 'PD2 Section 5', '2022-01-06'),
+(56, 'Falamig, Shiena Rose F.', 'F.SRF', 'F.SS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(57, 'Falcon, Kimberly F.', 'F.KF', 'F.KS5', 'requestor', 'PD2 Section 5', '2022-01-06'),
+(58, 'Magnaye, Cecilia R.', 'M.CR', 'M.CS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(59, 'Dipasupil, Marvic Joyce', 'D.MJ', 'D.MS5', 'requestor', 'PD2 Section 5', '2022-01-06'),
+(60, 'Marañon, Kriza', 'M.K', 'M.KS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(61, 'Agdan, Lovely Grace C.', 'A.LGC', 'A.LS5', 'requestor', 'PD2 Section 5', '2022-01-06'),
+(62, 'Mones, Mia S.', 'M.MS', 'M.MS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(63, 'Mora, Divina C.', 'M.DC', 'M.DS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(64, 'Reyes, Rose Ann B.', 'R.RAB', 'R.RS4', 'requestor', 'PD2 Section 4', '2022-01-06'),
+(65, 'Onda, Rosell Elisa M.', 'O. REM', 'O.RS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(66, 'Ramos, Florence Ann A.', 'R.FAA', 'R.FS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(67, 'Seda, Julie Ann M.', 'S. JAM', 'S.JS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(68, 'De Guzman, Diana', 'DG.D', 'D.DS2', 'requestor', 'PD1 Section 2 (TOYOTA)', '2022-01-06'),
+(69, 'Vidal, Sherryl', 'V. S', 'V.SS2', 'requestor', 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(70, 'Comia, Maricris', 'C.M', 'C.MS3', 'requestor', 'PD1 Section 3', '2022-01-06'),
+(71, 'Ebreo, Regine P.', 'E.RP', 'E.RS3', 'requestor', 'PD1 Section 3', '2022-01-06'),
+(72, 'Henteloro, Erwin B.', 'H.EB', 'H.ES4', 'requestor', 'PD2 Section 4', '2022-01-06'),
+(73, 'De Rapete, Analiza', 'DR.A', 'D.AS4', 'requestor', 'PD2 Section 4', '2022-01-06'),
+(74, 'Falogme, Mercedes A.', 'F.MA', 'F.MS3', 'requestor', 'PD1 Section 3', '2022-01-06'),
+(75, 'Tiemsem, Manilyn P.', 'T.MP', 'T.MS3', 'requestor', 'PD2 Section 3', '2022-01-06'),
+(76, 'Gobison, Kristine Lecille I.', 'G.KLI', 'G.KS3', 'requestor', 'PD1 Section 3', '2022-01-06'),
+(77, 'Ramos, Jane', 'R.J', 'R.JS3', 'requestor', 'PD1 Section 3', '2022-01-06'),
+(78, 'Habla, Wengerly M.', 'H.WM', 'H.WS3', 'requestor', 'PD1 Section 3', '2022-01-06'),
+(79, 'Magnaye, Ma. Crishelle A.', 'M.MCA', 'M.MS3', 'requestor', 'PD1 Section 3', '2022-01-06'),
+(80, 'Pastoral, Lady Lyn', 'P.LL', 'P.LS3', 'requestor', 'PD1 Section 3', '2022-01-06'),
+(81, 'Marasigan, Kim Nova', 'M. KN', 'M.KS3', 'requestor', 'PD1 Section 3', '2022-01-06');
 
 -- --------------------------------------------------------
 
@@ -346,7 +423,23 @@ CREATE TABLE `trs_section` (
 INSERT INTO `trs_section` (`id`, `section`, `date_created`) VALUES
 (1, 'Section 1', '2021-11-29'),
 (2, 'Qualificator', '2021-11-29'),
-(3, 'Training', '2021-12-02');
+(3, 'Training', '2021-12-02'),
+(7, 'Production Technical Training', '2022-01-06'),
+(8, 'EQ(Final)', '2022-01-06'),
+(9, 'EQ(Initial)', '2022-01-06'),
+(10, 'PD1 Section 1', '2022-01-06'),
+(11, 'PD1 Section 2 (MAZDA)', '2022-01-06'),
+(12, 'PD1 Section 2 (TOYOTA)', '2022-01-06'),
+(13, 'PD2 Section 3', '2022-01-06'),
+(14, 'PD2 Section 4', '2022-01-06'),
+(15, 'PD2 Section 5', '2022-01-06'),
+(16, 'PD2 Section 6', '2022-01-06'),
+(17, 'PE(Final)', '2022-01-06'),
+(18, 'PE(Initial)', '2022-01-06'),
+(19, 'QA', '2022-01-06'),
+(20, 'QA-FINAL', '2022-01-06'),
+(21, 'QA-Initial', '2022-01-06'),
+(22, 'PD1 Section 3', '2022-01-06');
 
 -- --------------------------------------------------------
 
@@ -536,7 +629,7 @@ ALTER TABLE `trs_type`
 -- AUTO_INCREMENT for table `trs_accounts`
 --
 ALTER TABLE `trs_accounts`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=82;
 
 --
 -- AUTO_INCREMENT for table `trs_category`
@@ -590,7 +683,7 @@ ALTER TABLE `trs_request`
 -- AUTO_INCREMENT for table `trs_section`
 --
 ALTER TABLE `trs_section`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `trs_training_categ`

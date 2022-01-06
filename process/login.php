@@ -20,7 +20,6 @@
  		if ($stmt->rowCount() > 0) {
  			foreach($stmt->fetchALL() as $x){
  				$role = $x['role'];
- 				$name = $x['name'];
  			}
  			if($role == 'requestor'){
  				$_SESSION['username'] = $username;
@@ -52,6 +51,4 @@
  	session_destroy();
  	header('location: ../index.php');
  }
-
-
 ?>

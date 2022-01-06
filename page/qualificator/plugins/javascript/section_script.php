@@ -41,11 +41,13 @@ function register_section(){
                 // console.log(response);
                 if(response == 'success') {
                     swal('SUCCESS', 'Data Saved', 'success');
-               
+                        $('#section').val('');
                 }else if(response == 'x'){
                     swal('FAILED', 'Existing Data', 'error');
+                    $('#section').val('');
                 }else{
                     swal('FAILED', 'Error', 'error');
+                    $('#section').val('');
                 }
             }
         });

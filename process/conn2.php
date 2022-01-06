@@ -1,7 +1,7 @@
 <?php
     $servername = 'localhost';
     $username = 'root';
-    $pass = '';
+    $pass = 'trspassword2022';
     date_default_timezone_set('Asia/Manila');
     $server_date_time = date('Y-m-d H:i:s');
     $server_date_only = date('Y-m-d');
